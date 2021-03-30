@@ -2,6 +2,7 @@
 @import './flex-order.css';
 @import './flex-direction.css';
 @import './flex-wrap.css';
+@import './flex.css';
 
 :root {
   --darkColor: #04001e;
