@@ -5,6 +5,7 @@
 @import './button-icon.css';
 @import './logo.css';
 @import './list.css';
+@import './menu.css';
 
 :root {
   font-size: 16px;
