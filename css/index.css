@@ -1,5 +1,7 @@
 @import './icons.css';
 @import './fonts.css';
+@import './body.css';
+@import './link.css';
 
 :root {
   font-size: 16px;
@@ -20,15 +22,3 @@
   --small: normal .75em/normal var(--basefontFamily);
 }
 
-body {
-  background: var(--primary);
-  font-family: var(--basefontFamily);
-}
-
-button {
-  font-size: 40px;
-  color: green;
-}
-button:hover {
-  color: black;
-}
