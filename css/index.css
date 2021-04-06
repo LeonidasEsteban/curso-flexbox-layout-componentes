@@ -5,6 +5,7 @@
 @import './button-icon.css';
 @import './sidebar.css';
 @import './ellipsis.css';
+@import './slider.css';
 
 :root {
   font-size: 16px;
