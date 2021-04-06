@@ -1,0 +1,13 @@
+.player {
+
+}
+
+.player-control {
+  border: none;
+  padding: 0;
+  background: none;
+  color: var(--gray10);
+  font-size: 1.5rem;
+  padding: .5rem;
+  cursor: pointer;
+}

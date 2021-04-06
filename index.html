@@ -11,7 +11,7 @@
   <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Aut minus voluptate fuga officiis dicta magni fugiat quod blanditiis perspiciatis eius laboriosam, explicabo culpa assumenda saepe cumque magnam nemo voluptates modi!</p>
 
   <div class="playerControls">
-    <div class="playerControls-buttons">
+    <div class="playerControls-buttons" aria-label="Controles de reproducción">
       <button class="buttonIcon" aria-label="Anterior" title="Anterior">
         <i class="icon-prev" aria-hidden="true"></i>
       </button>
@@ -34,6 +34,20 @@
       <span class="playerPlayback-progressTime">01:40</span>
     </div>
   </div>
+
+  <div class="playerVolume">
+    <button class="player-control" aria-label="Silenciar" aria-describedby="volumen-icon">
+      <i class="icon-volumeUp" id="volumen-icon" role="presentation" aria-label="Volumen alto"></i>
+    </button>
+    <div class="playerVolume-slider">
+      <div class="slider">
+        <div class="slider-progress">
+          <button class="slider-buttton" aria-label="Controlar el progreso de la reproducción"></button>
+        </div>
+      </div>
+    </div>
+  </div>
+
   <div class="sidebar">
     <header class="logo">
       <a href="/" aria-current="page">

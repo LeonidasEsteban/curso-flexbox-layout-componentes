@@ -8,6 +8,9 @@
 @import './slider.css';
 @import './player-controls.css';
 @import './player-playback.css';
+@import './player-volume.css';
+@import './player.css';
+
 
 :root {
   font-size: 16px;
