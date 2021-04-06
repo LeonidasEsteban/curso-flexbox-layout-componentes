@@ -9,9 +9,29 @@
 </head>
 <body class="body">
   <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Aut minus voluptate fuga officiis dicta magni fugiat quod blanditiis perspiciatis eius laboriosam, explicabo culpa assumenda saepe cumque magnam nemo voluptates modi!</p>
-  <div class="slider">
-    <div class="slider-progress">
-      <button class="slider-buttton" aria-label="Controlar el progreso de la reproducción"></button>
+
+  <div class="playerControls">
+    <div class="playerControls-buttons">
+      <button class="buttonIcon" aria-label="Anterior" title="Anterior">
+        <i class="icon-prev" aria-hidden="true"></i>
+      </button>
+      <button class="buttonIcon is-white" aria-label="Reproducir" title="Reproducir">
+        <i class="icon-play" aria-hidden="true"></i>
+      </button>
+      <button class="buttonIcon" aria-label="Siguiente" title="Siguiente">
+        <i class="icon-next" aria-hidden="true"></i>
+      </button>
+    </div>
+    <div class="playerPlayback">
+      <span class="playerPlayback-progressTime">01:40</span>
+      <div class="playerPlayback-slider">
+        <div class="slider">
+          <div class="slider-progress">
+            <button class="slider-buttton" aria-label="Controlar el progreso de la reproducción"></button>
+          </div>
+        </div>
+      </div>
+      <span class="playerPlayback-progressTime">01:40</span>
     </div>
   </div>
   <div class="sidebar">
@@ -115,12 +135,7 @@
   </div>
 
 
-  <button class="buttonIcon is-white" aria-label="Reproducir" title="Reproducir">
-    <i class="icon-play" aria-hidden="true"></i>
-  </button>
-  <button class="buttonIcon is-primary" aria-label="Reproducir" title="Reproducir">
-    <i class="icon-play" aria-hidden="true"></i>
-  </button>
+
 
 </body>
 </html>
