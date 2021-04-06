@@ -10,6 +10,7 @@
 @import './player-playback.css';
 @import './player-volume.css';
 @import './player.css';
+@import './now-playing.css';
 
 
 :root {
