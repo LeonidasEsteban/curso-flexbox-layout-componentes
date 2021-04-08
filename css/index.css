@@ -10,6 +10,7 @@
 @import './playlist-b.css';
 @import './playlist-list.css';
 @import './search.css';
+@import './navigation.css';
 
 :root {
   font-size: 16px;
