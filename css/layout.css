@@ -1,0 +1,35 @@
+:root {
+  --sidebarInlineSize: 15rem;
+  --minBlockSize: 37.5rem;
+  --minInlineSize: 48rem;
+  --bottomSize: 5.5rem;
+}
+
+.layout {
+  /* box-shadow: inset 0 0 0 10px red; */
+  min-inline-size: var(--minInlineSize);
+}
+
+.layout-sidebar {
+  block-size: calc(100vh - var(--bottomSize));
+  min-block-size: var(--minBlockSize);
+  inline-size: var(--sidebarInlineSize);
+  overflow: auto;
+  flex-shrink: 0;
+}
+
+.layout-main {
+  block-size: calc(100vh - var(--bottomSize));
+  min-block-size: var(--minBlockSize);
+
+  overflow: auto;
+}
+
+.layout-bottom {
+  flex: 1;
+  block-size: var(--bottomSize);
+}
+
+.layout-block {
+  display: flex;
+}
