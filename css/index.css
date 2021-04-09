@@ -6,13 +6,7 @@
 @import './sidebar.css';
 @import './ellipsis.css';
 @import './player.css';
-@import './playlist-a.css';
-@import './playlist-b.css';
-@import './playlist-list.css';
-@import './search.css';
-@import './navigation.css';
-@import './header.css';
-@import './sticky.css';
+@import './page.css';
 
 :root {
   font-size: 16px;

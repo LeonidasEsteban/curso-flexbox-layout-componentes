@@ -1,3 +1,6 @@
+@import './playlist-a.css';
+@import './playlist-b.css';
+
 .playlistList {
   /* border: 1px solid red; */
 }
