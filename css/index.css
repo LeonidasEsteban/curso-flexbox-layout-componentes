@@ -8,6 +8,7 @@
 @import './player.css';
 @import './page.css';
 @import './layout.css';
+@import './scrollbar.css';
 
 :root {
   font-size: 16px;

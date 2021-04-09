@@ -16,6 +16,7 @@
   inline-size: var(--sidebarInlineSize);
   overflow: auto;
   flex-shrink: 0;
+  background: var(--gray60);
 }
 
 .layout-main {
